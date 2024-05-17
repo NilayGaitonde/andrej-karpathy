@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 165, in <module>
+    model = BigramLanguageModel(vocab_size).to(device)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 95, in __init__
+    self.transformer = nn.Sequential([
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/container.py", line 106, in __init__
+    self.add_module(str(idx), module)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 584, in add_module
+    raise TypeError(f"{torch.typename(module)} is not a Module subclass")
+TypeError: list is not a Module subclass

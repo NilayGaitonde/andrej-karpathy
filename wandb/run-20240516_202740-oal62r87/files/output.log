@@ -1,0 +1,137 @@
+
+0:train loss = 4.1849 val loss = 4.1912
+1000:train loss = 2.6567 val loss = 2.6578
+2000:train loss = 2.5238 val loss = 2.5272
+3000:train loss = 2.4411 val loss = 2.4515
+4000:train loss = 2.3863 val loss = 2.4023
+5000:train loss = 2.3387 val loss = 2.3333
+6000:train loss = 2.3043 val loss = 2.3139
+7000:train loss = 2.2934 val loss = 2.3175
+8000:train loss = 2.2668 val loss = 2.2882
+9000:train loss = 2.2535 val loss = 2.2876
+10000:train loss = 2.2338 val loss = 2.2444
+11000:train loss = 2.2048 val loss = 2.2400
+12000:train loss = 2.2097 val loss = 2.2459
+13000:train loss = 2.1857 val loss = 2.2493
+14000:train loss = 2.1718 val loss = 2.2188
+15000:train loss = 2.1635 val loss = 2.2139
+16000:train loss = 2.1675 val loss = 2.2028
+17000:train loss = 2.1526 val loss = 2.2120
+18000:train loss = 2.1418 val loss = 2.1995
+19000:train loss = 2.1410 val loss = 2.2093
+20000:train loss = 2.1284 val loss = 2.1764
+21000:train loss = 2.1052 val loss = 2.1913
+22000:train loss = 2.1209 val loss = 2.2021
+23000:train loss = 2.1132 val loss = 2.1887
+24000:train loss = 2.1177 val loss = 2.1757
+25000:train loss = 2.1004 val loss = 2.1884
+26000:train loss = 2.1039 val loss = 2.1777
+27000:train loss = 2.0880 val loss = 2.1904
+28000:train loss = 2.0894 val loss = 2.1651
+29000:train loss = 2.0958 val loss = 2.1565
+30000:train loss = 2.0821 val loss = 2.1725
+31000:train loss = 2.0721 val loss = 2.1595
+32000:train loss = 2.0729 val loss = 2.1614
+33000:train loss = 2.0857 val loss = 2.1669
+34000:train loss = 2.0554 val loss = 2.1533
+35000:train loss = 2.0694 val loss = 2.1281
+36000:train loss = 2.0648 val loss = 2.1541
+37000:train loss = 2.0545 val loss = 2.1747
+38000:train loss = 2.0525 val loss = 2.1557
+39000:train loss = 2.0508 val loss = 2.1355
+40000:train loss = 2.0452 val loss = 2.1313
+41000:train loss = 2.0539 val loss = 2.1311
+42000:train loss = 2.0465 val loss = 2.1587
+43000:train loss = 2.0452 val loss = 2.1464
+44000:train loss = 2.0440 val loss = 2.1345
+45000:train loss = 2.0657 val loss = 2.1567
+46000:train loss = 2.0402 val loss = 2.1166
+47000:train loss = 2.0310 val loss = 2.1288
+48000:train loss = 2.0363 val loss = 2.1237
+49000:train loss = 2.0252 val loss = 2.1391
+50000:train loss = 2.0270 val loss = 2.1382
+51000:train loss = 2.0355 val loss = 2.1383
+52000:train loss = 2.0288 val loss = 2.1267
+53000:train loss = 2.0074 val loss = 2.1143
+54000:train loss = 2.0228 val loss = 2.1287
+55000:train loss = 2.0053 val loss = 2.1415
+56000:train loss = 2.0229 val loss = 2.1290
+57000:train loss = 2.0242 val loss = 2.1119
+58000:train loss = 2.0014 val loss = 2.1275
+59000:train loss = 2.0052 val loss = 2.1203
+60000:train loss = 2.0094 val loss = 2.1146
+61000:train loss = 2.0069 val loss = 2.1188
+62000:train loss = 1.9908 val loss = 2.1192
+63000:train loss = 2.0147 val loss = 2.1105
+64000:train loss = 2.0019 val loss = 2.1233
+65000:train loss = 2.0136 val loss = 2.1110
+66000:train loss = 2.0001 val loss = 2.1072
+67000:train loss = 2.0161 val loss = 2.1332
+68000:train loss = 2.0072 val loss = 2.1319
+69000:train loss = 2.0017 val loss = 2.1186
+70000:train loss = 1.9911 val loss = 2.1010
+71000:train loss = 1.9957 val loss = 2.1176
+72000:train loss = 2.0012 val loss = 2.1095
+73000:train loss = 2.0015 val loss = 2.1299
+74000:train loss = 1.9919 val loss = 2.0993
+75000:train loss = 1.9816 val loss = 2.0939
+76000:train loss = 1.9720 val loss = 2.0878
+77000:train loss = 1.9945 val loss = 2.1034
+78000:train loss = 1.9858 val loss = 2.1142
+79000:train loss = 1.9791 val loss = 2.0917
+80000:train loss = 1.9850 val loss = 2.0820
+81000:train loss = 1.9841 val loss = 2.1126
+82000:train loss = 1.9633 val loss = 2.1110
+83000:train loss = 1.9636 val loss = 2.0980
+84000:train loss = 1.9881 val loss = 2.0918
+85000:train loss = 1.9801 val loss = 2.1075
+86000:train loss = 1.9775 val loss = 2.0879
+87000:train loss = 1.9745 val loss = 2.0759
+88000:train loss = 1.9795 val loss = 2.1023
+89000:train loss = 1.9508 val loss = 2.1232
+90000:train loss = 1.9639 val loss = 2.1130
+91000:train loss = 1.9665 val loss = 2.1202
+92000:train loss = 1.9923 val loss = 2.1040
+93000:train loss = 1.9723 val loss = 2.0869
+94000:train loss = 1.9819 val loss = 2.1031
+95000:train loss = 1.9554 val loss = 2.0925
+96000:train loss = 1.9795 val loss = 2.0896
+97000:train loss = 1.9712 val loss = 2.1147
+98000:train loss = 1.9712 val loss = 2.1090
+99000:train loss = 1.9681 val loss = 2.0923
+hat own.
+GLOUCIO:
+In pors
+On hamemphe naty, I clond
+to somen;
+And I'll broth hence, whonot nevern-pre then; for I we the stare us fies thy:
+Porn une.
+RICK:
+'Welth, an me; is their hay, the nam Have so trathip asself.
+All ack noth; my you xers a seoP tage awer comesed for proa,
+ISA-
+As hith is gour hour met treecation hat do den it't I horcuservenis, of kine, bring meme dal sant me the des, buan, aright the son:
+Brasetweshave me this atthe though that he fanden. What doin everese have bolse ther.
+GLOUCENIUS:
+What year!
+In noble
+Maye,
+Andwars
+Be grees' pas yet, I'll?
+AENIUS:
+Cess.
+PORIUCHORANGSE SLERD VINGELO:
+My may shou. O'ere dise
+Fore atte senam suared his is alon:
+O, is feal'd
+Vind to ratente chw am
+To drined
+Wastomes not that in
+And ton to is with.
+VI:
+I chath.
+DUCENTIO:
+O, and mis whathy harine;,
+Yearth sam me shale Vosein:
+Meny all pay niver saver viree;
+Is a seed speith, floe lorn denshbacle liphoss the dehs, thite weart. Munds, thy from take to you pet's not a proself,

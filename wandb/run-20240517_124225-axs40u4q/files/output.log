@@ -1,0 +1,82 @@
+
+0:train loss = 4.3180 val loss = 4.3225
+1000:train loss = 3.3570 val loss = 3.4139
+2000:train loss = 3.3302 val loss = 3.3737
+3000:train loss = 3.3276 val loss = 3.3625
+4000:train loss = 3.3237 val loss = 3.3725
+5000:train loss = 3.3147 val loss = 3.3568
+6000:train loss = 3.3248 val loss = 3.3607
+7000:train loss = 3.3053 val loss = 3.3774
+8000:train loss = 3.3070 val loss = 3.3600
+9000:train loss = 3.3296 val loss = 3.3644
+10000:train loss = 3.3206 val loss = 3.3620
+11000:train loss = 3.3412 val loss = 3.3792
+12000:train loss = 3.3095 val loss = 3.3687
+13000:train loss = 3.3118 val loss = 3.3594
+14000:train loss = 3.3219 val loss = 3.3532
+15000:train loss = 3.3273 val loss = 3.3638
+16000:train loss = 3.3166 val loss = 3.3521
+17000:train loss = 3.3112 val loss = 3.3437
+18000:train loss = 3.3209 val loss = 3.3409
+19000:train loss = 3.3219 val loss = 3.3455
+20000:train loss = 3.2973 val loss = 3.3729
+21000:train loss = 3.3233 val loss = 3.3660
+22000:train loss = 3.3147 val loss = 3.3520
+23000:train loss = 3.3154 val loss = 3.3657
+24000:train loss = 3.3271 val loss = 3.3543
+25000:train loss = 3.3176 val loss = 3.3515
+26000:train loss = 3.2917 val loss = 3.3489
+27000:train loss = 3.3029 val loss = 3.3494
+28000:train loss = 3.3250 val loss = 3.3387
+29000:train loss = 3.3103 val loss = 3.3316
+30000:train loss = 3.3353 val loss = 3.3580
+31000:train loss = 3.3065 val loss = 3.3662
+32000:train loss = 3.3042 val loss = 3.3469
+33000:train loss = 3.3246 val loss = 3.3759
+34000:train loss = 3.3191 val loss = 3.3393
+35000:train loss = 3.3180 val loss = 3.3610
+36000:train loss = 3.3321 val loss = 3.3352
+37000:train loss = 3.3072 val loss = 3.3500
+38000:train loss = 3.3112 val loss = 3.3663
+39000:train loss = 3.3067 val loss = 3.3630
+40000:train loss = 3.3104 val loss = 3.3579
+41000:train loss = 3.3146 val loss = 3.3453
+42000:train loss = 3.3152 val loss = 3.3463
+43000:train loss = 3.3241 val loss = 3.3531
+44000:train loss = 3.2981 val loss = 3.3387
+45000:train loss = 3.3125 val loss = 3.3446
+46000:train loss = 3.3212 val loss = 3.3445
+Traceback (most recent call last):
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 171, in <module>
+    losses = evaluate_loss()
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 145, in evaluate_loss
+    logits,loss = model(X,y)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 108, in forward
+    x = self.transformer(x)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 85, in forward
+    out = self.ff(self.postnorm(x))
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/normalization.py", line 201, in forward
+    return F.layer_norm(
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/functional.py", line 2573, in layer_norm
+    return torch.layer_norm(input, normalized_shape, weight, bias, eps, torch.backends.cudnn.enabled)
+KeyboardInterrupt

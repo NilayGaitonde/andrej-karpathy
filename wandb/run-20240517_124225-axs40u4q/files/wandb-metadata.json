@@ -1,0 +1,37 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-05-17T07:12:26.027177",
+    "startedAt": "2024-05-17T07:12:25.004874",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py",
+    "codePathLocal": "gpt/gpt.py",
+    "codePath": "gpt/gpt.py",
+    "git": {
+        "remote": "https://github.com/NilayGaitonde/andrej-karpathy-zero-to-hero.git",
+        "commit": "a492f65032f8df528cc6b5a2172a14d0d047882b"
+    },
+    "email": "68230775+NilayGaitonde@users.noreply.github.com",
+    "root": "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy",
+    "host": "Nilays-Air",
+    "username": "nilaygaitonde",
+    "executable": "/Users/nilaygaitonde/anaconda3/envs/deeplearning/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 206.3401336669922
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

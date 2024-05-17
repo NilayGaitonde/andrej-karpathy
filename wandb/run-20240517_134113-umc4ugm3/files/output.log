@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 168, in <module>
+    losses = evaluate_loss()
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 142, in evaluate_loss
+    logits,loss = model(X,y)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 104, in forward
+    x = self.transformer(x)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 85, in forward
+    x = self.mha(self.prenorm(X))
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 72, in forward
+    out = torch.cat([h(X) for h in self.mha],dim=-1)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 72, in <listcomp>
+    out = torch.cat([h(X) for h in self.mha],dim=-1)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/Documents/Learn/ml/andrej-karpathy/gpt/gpt.py", line 54, in forward
+    k = self.key(x)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/nilaygaitonde/anaconda3/envs/deeplearning/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
